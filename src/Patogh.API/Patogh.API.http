@@ -1,0 +1,6 @@
+@Patogh.API_HostAddress = http://localhost:7128
+
+GET {{Patogh.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,47 @@
+# Build output
+**/bin/
+**/obj/
+**/out/
+
+# Visual Studio
+**/.vs/
+**/*.user
+
+# Rider / JetBrains
+**/.idea/
+
+# Git
+.git/
+.gitignore
+
+# Logs (mounted as volume)
+**/logs/
+**/*.log
+
+# Uploads (mounted as volume)
+**/Uploads/
+
+# Test projects (not needed in production image)
+UnitTest/
+IntegrationTest/
+**/tests/
+**/test/
+
+# Docker files themselves (avoid circular inclusion)
+Patogh.API/Dockerfile
+Patogh.API/docker-compose*.yml
+Patogh.API/.dockerignore
+
+# Docs
+*.md
+docs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets — never include in image
+**/*.pfx
+**/*.key
+**/*secrets*.json
+.env

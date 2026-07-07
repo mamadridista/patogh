@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="../src/Patogh.API/Patogh.API.csproj" />
+  <Project Path="../src/Patogh.Application/Patogh.Application.csproj" />
+  <Project Path="../src/Patogh.Domain/Patogh.Domain.csproj" />
+  <Project Path="../src/Patogh.Infrastructure/Patogh.Infrastructure.csproj" />
+  <Project Path="../src/Patogh.Persistance/Patogh.Persistance.csproj" />
+</Solution>
